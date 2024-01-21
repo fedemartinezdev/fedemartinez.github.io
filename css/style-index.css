@@ -1,0 +1,28 @@
+.index-container {
+    /* border: solid pink; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.index-container__cell {
+    --cell-size: 250px;
+    width: var(--cell-size);
+    height: var(--cell-size);
+    /* border: solid salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+.img-person {
+    border-radius: 100%;
+}
+
+.img-feature {
+    width: 100px;
+}
